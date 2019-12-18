@@ -1,1 +1,19 @@
-/* Add your CSS Below */
+/* Add your CSS Below *
+ */
+.one div:nth-child(2) {
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+}
+.two {
+    position: relative;
+}
+.two div:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 100px;;
+}
+.three div:nth-child(1) {
+    position: fixed;
+    right: 130px;
+}
